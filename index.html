@@ -436,14 +436,14 @@ const visited = new Set();
    ===================================================== */
 const AUDIO = {
   musik: ["audio/musik1.mp3", "audio/musik2.mp3"],                 /* boleh 1 atau lebih, contoh: ["audio/musik1.mp3","audio/musik2.mp3","audio/musik3.mp3"] */
-  volumeMusik: 0.4,          /* musik dibuat lebih pelan dari suara penjelasan (0 sampai 1) */
+  volumeMusik: 0.5,          /* musik dibuat lebih pelan dari suara penjelasan (0 sampai 1) */
   volumeHalaman: {           /* besar musik per halaman: 1 = normal, 0.3 = kecil, 0 = tanpa musik */
     login: 1,
-    home:  0.3,
+    home:  1,
     video: 0,
-    tts:   0.3,
-    find:  0.3,
-    about: 0.3
+    tts:   1,
+    find:  1,
+    about: 1
   },
   efekSuara: true,           /* bunyi lembut saat tombol ditekan (tanpa file) */
   narasi: {                  /* suara penjelasan per halaman */
